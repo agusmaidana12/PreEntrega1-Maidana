@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que ocupe el 100% de la altura vertical de la ventana */
+    margin: 0;
+    background-color: #000000;
+}
+
+.centrado{
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff52;
+    color: #fff;
+    border: solid rgba(255, 255, 255, 0.336) 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightblue;
+}
+
+#iniciarPartido{
+    margin-left: 10px;
+}
+/* Estilos adicionales para hacerlo responsivo */
+
+@media (max-width: 768px) {
+    button {
+    font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+    font-size: 12px;
+    padding: 8px 16px;
+    }
+}
